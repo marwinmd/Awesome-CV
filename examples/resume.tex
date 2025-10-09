@@ -75,6 +75,22 @@
 
 %\quote{``Be the change that you want to see in the world."}
 
+% Adjust list/item spacing to prevent overly tight lines in the resume items
+% (local override only for this resume; does not affect the class or other examples)
+\makeatletter
+\renewenvironment{cvitems}{%
+  \vspace{-2.0mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=2ex]
+    \setlength{\parskip}{0pt}
+    \setlength{\itemsep}{0.35em}
+    \renewcommand{\labelitemi}{\bullet}
+  }{%
+  \end{itemize}
+  \end{justify}
+  \vspace{-2.0mm}
+}
+\makeatother
 
 %-------------------------------------------------------------------------------
 \begin{document}
