@@ -6,9 +6,9 @@
   Awesome CV
 </h1>
 
-<p align="center">
+<div align="center">
   LaTeX template for your outstanding job application
-</p>
+</div>
 
 <div align="center">
   <a href="https://www.paypal.me/posquit0">
@@ -124,3 +124,7 @@ Good luck!
 ## See Also
 
 * [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself.
+
+## Project Improvement Suggestions
+
+Looking for ways to help or curious about potential enhancements? See SUGGESTIONS.md for a prioritized list of actionable improvements across docs, tooling, CI, and templates.
